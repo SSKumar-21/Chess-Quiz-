@@ -1,0 +1,92 @@
+*{
+    font-family: "PT Serif";
+}
+
+#q{
+    color: white;
+}
+
+
+
+body{
+    background-image: url("./HD-wallpaper-honeycomb-hexagons-surface-metallic-gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.main1{
+    text-align: center;
+    height: auto;
+    width: 700px;
+    border-radius: 20px;
+    border: 2px black solid;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.op{
+    border-radius: 20px;
+    border: 2px black solid;
+    height: 70px;
+    width: 650px;
+    margin: 10px;
+    cursor: pointer;
+    transform: all 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.op:hover{
+    background-color: grey;
+    color: white;
+    height: 80px;
+    box-shadow: 0 0 100px 0 black;
+}
+
+.ques{
+    margin: 20px;
+}
+
+.last{
+    color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem; 
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+
+#s30{
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+#s60{
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+#s100{
+    color: green;
+    text-shadow: 0 0 10px green;
+}
